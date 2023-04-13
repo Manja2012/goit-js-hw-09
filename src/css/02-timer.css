@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(162, 145, 98);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  .timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+  
+    color: whitesmoke;
+  }
+  
+  .field:not(:last-child) {
+    margin-right: 50px;
+  }
+  
+  .value {
+    font-size: 3.5rem;
+  }
+  
+  .lable {
+    font-size: 2.5rem;
+  }
+  
+  input {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 3rem;
+    margin-right: 2rem;
+    padding: 0.5rem 0.5rem;
+    color: black;
+    text-transform: uppercase;
+    border: 2px solid rgb(146, 148, 248);
+    border-radius: 5;
+  }
+  
+  button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(17, 140, 74);
+    text-decoration: none;
+    border: 2px solid rgb(146, 148, 248);
+    position: relative;
+    overflow: hidden;
+    font-size: 1rem;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 5;
+  }
+ 
+  button:disabled{
+    background-color: rgb(114, 112, 112);
+  }
+  

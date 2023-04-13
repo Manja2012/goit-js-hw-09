@@ -1,0 +1,17 @@
+button {
+    width: 150px;
+    height: 70px;
+    text-decoration: none;
+    border: 2px solid rgb(146, 148, 248);
+   
+    font-size: 2rem;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 10;
+  }
+  
+  button:hover {
+    box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+  }
+  
+  
