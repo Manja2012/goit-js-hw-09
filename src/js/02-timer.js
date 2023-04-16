@@ -14,6 +14,7 @@ let deltaTime = null;
 
 startBtn.addEventListener(`click`, onTimerStart);
 
+startBtn.disabled = true;
 const options = {
     enableTime: true,
     time_24hr: true,
